@@ -5,7 +5,7 @@ import Group from './Components/Group';
 import Album from './Components/Album';
 import Counter from './Components/Counter';
 import Header from './Components/Header/header';
-import SideMenu from './Components/SideMenu';
+import SideMenu from './Components/SideMenu/sideMenu';
 import Content from './Components/Content';
 import Footer from './Components/Footer';
 
@@ -15,7 +15,11 @@ function App() {
       <Header></Header>
       <div className='sideMenu'>
         <SideMenu></SideMenu>
+        
+        <div className='other'>
         <Content></Content>
+        </div>
+        
       </div>
       <Footer></Footer>
 
