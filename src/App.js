@@ -6,8 +6,8 @@ import Album from './Components/Album';
 import Counter from './Components/Counter';
 import Header from './Components/Header/header';
 import SideMenu from './Components/SideMenu/sideMenu';
-import Content from './Components/Content';
 import Footer from './Components/Footer';
+import Home from './Components/Pages/Home/home';
 
 function App() {
   return (
@@ -15,9 +15,9 @@ function App() {
       <Header></Header>
       <div className='sideMenu'>
         <SideMenu></SideMenu>
-        
+
         <div className='other'>
-        <Content></Content>
+        <Home></Home>
         </div>
         
       </div>

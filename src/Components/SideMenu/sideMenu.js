@@ -9,7 +9,8 @@ function SideMenu(){
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem">Home</li>
+            <li className="sidebarListItem">Home
+            </li>
             <li className="sidebarListItem">Analitics</li>
             <li className="sidebarListItem">LogOut</li>
           </ul>
