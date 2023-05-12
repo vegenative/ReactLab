@@ -3,7 +3,7 @@ import "./featuredinfo.css";
 function FeaturedInfo()
 {
     return (
-    <div className="featuredInfo">FeaturedInfo
+    <div className="featuredInfo">Info
         <div className="featuredItem">
             <span className="featuredTitle">Sum up</span>
             <div className="featuredMoneyContainer">
