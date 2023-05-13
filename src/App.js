@@ -20,6 +20,7 @@ function App() {
       setStateChat(!statechat);
       console.log(statechat)
   }
+
   return (
     <BrowserRouter>
       <div className="App">
@@ -31,8 +32,7 @@ function App() {
                   <Route path="/" element={<Home/>}></Route>
                   <Route path="/info" element={<FeaturedInfo/>}></Route>
                 </Routes>
-                <button className="chat-popout" onClick={chatState}>
-                  Chat
+                <button className="chat-button" onClick={chatState}>
                 </button>
                 {statechat && 
                 <div className='chat'>
@@ -41,7 +41,6 @@ function App() {
                 } 
               </div> 
             </div>
-            <Footer></Footer>
             <HelloWorld ></HelloWorld>
             <div className='h1'>
             <Name name = "Paweł Woźniak"></Name>

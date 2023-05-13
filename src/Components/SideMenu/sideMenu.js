@@ -6,27 +6,27 @@ import { Home } from "@material-ui/icons";
 
 function SideMenu(){
   return (
-    <div className="sideMenu">
+    <div className="sideMenu my-class">
       <div className="sidebarWrapper">
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem">
-              
-            </li>
             <li className="sidebarListItem">Analitics</li>
             <li className="sidebarListItem">LogOut</li>
-          </ul>
+          
           <h3 className="sidebarTitle">Menu</h3>
           <nav>
           <li className="sidebarListItem">
-            <Link to='/'> Home
-            </Link>
-            <Link to='/info'> Info
+            <Link className="link" to='/'> Home
             </Link>
           </li>
-            
+          <li className="sidebarListItem">
+            <Link className="link" to='/info'> Info
+            </Link>
+          </li>
+ 
           </nav>
+          </ul>
           <ul className="sidebarList">
             <li className="sidebarListItem">User</li>
             <li className="sidebarListItem">Messages</li>

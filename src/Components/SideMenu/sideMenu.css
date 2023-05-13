@@ -36,3 +36,9 @@
 {
     background-color: rgb(81, 163, 190);
 }
+
+.link
+{
+    display: flex;
+    text-decoration: none;
+}
